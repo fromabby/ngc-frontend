@@ -1,0 +1,93 @@
+.faqs-header {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+:root {
+    font-size: 16px;
+}
+
+details div {
+    border-left: 2px solid #130d26;
+    border-right: 2px solid #130d26;
+    border-bottom: 2px solid #130d26;
+    padding: 1.5em;
+}
+
+details div>*+* {
+    margin-top: 1.5em;
+}
+
+details+details {
+    margin-top: .5rem;
+}
+
+summary {
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    border: 2px solid #130d26;
+    padding: .75em 1em;
+    cursor: pointer;
+    position: relative;
+    padding-left: calc(1.75rem + .75rem + .75rem);
+}
+
+summary:before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: .75rem;
+    content: "↓";
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: #180C42;
+    color: #FFF;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+details[open] summary {
+    background-color: #180C42;
+}
+
+details[open] summary:before {
+    content: "↑";
+}
+
+summary:hover {
+    background-color: #180C42;
+}
+
+details div ul li p {
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: solid #fff 1px;
+}
+
+details div ul li p em {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.faqs-link {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 1px 0 0;
+}
+
+.faqs-link:hover {
+    color: white;
+    box-shadow: 0 3px 0 0;
+}

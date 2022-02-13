@@ -1,0 +1,27 @@
+:root {
+    --color-1: #060809;
+}
+
+.header {
+    font-family: 'Quattrocento', serif !important;
+    background-color: var(--color-1) !important;
+    padding: 12px 0;
+    position: relative;
+}
+
+
+/*header*/
+
+.header .logo a {
+    font-family: Retroica !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.1em;
+}

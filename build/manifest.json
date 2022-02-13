@@ -1,0 +1,13 @@
+{
+    "short_name": "NEAR Gang Couture Website",
+    "name": "NEAR Gang Couture Website",
+    "icons": [{
+        "src": "/assets/logos/ngc-logo.jpg",
+        "sizes": "192 x 192",
+        "type": "image/jpeg"
+    }],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
